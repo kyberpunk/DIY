@@ -27,7 +27,7 @@ void Otto::init(int YL, int YR, int RL, int RR, bool load_calibration, int Noise
     for (int i = 0; i < 4; i++) {
       int servo_trim = EEPROM.read(i);
       if (servo_trim > 128) servo_trim -= 256;
-      servo[3 - i].SetTrim(servo_trim);
+      servo[i].SetTrim(servo_trim);
     }
   }
   
