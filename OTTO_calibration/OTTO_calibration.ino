@@ -25,10 +25,10 @@
 
 #define N_SERVOS 4 // # servos
 
-#define RA_ID 0 // Right ankle ID
-#define LA_ID 1 // Left ankle ID
-#define RH_ID 2 // Right hip ID
-#define LH_ID 3 // Left hip ID
+#define RA_ID 3 // Right ankle ID
+#define LA_ID 2 // Left ankle ID
+#define RH_ID 1 // Right hip ID
+#define LH_ID 0 // Left hip ID
 
 #define RA_PIN 5 // Right ankle PIN
 #define LA_PIN 4 // Left ankle PIN
