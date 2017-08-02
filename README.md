@@ -38,6 +38,9 @@ char znak = 'A';
 
 // text
 char[] text = "text";
+
+// objekt robota
+Robot robot;
 ```
 
 ### Funkce
