@@ -4,6 +4,8 @@ Repozitář obsahuje fork open-source projektu Otto DIY (https://github.com/Otto
 
 Návod na stavbu robota najdete zde http://www.instructables.com/id/Otto-Build-You-Own-Robot-in-Two-Hours/.
 
+Kód je určen pro jednorázové použití a nedoporučujeme ho používat do svch projektů. V takovém případě použijte originální repozitář.
+
 Ve složce OTTO_bea najdete ukázkový soubor OTTO_bea.ino, který slouží jako šablona pro programování robota.
 
 ## Programování v Arduino IDE
