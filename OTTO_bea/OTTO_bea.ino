@@ -3,6 +3,7 @@
 Robot robot;
 
 void setup(){
+  // funkce setup se provede pouze jednou po spusteni programu
   // spusteni robota
   robot.probud_se();
   // nastaveni do zakladni polohy
@@ -12,6 +13,7 @@ void setup(){
 }
 
 void loop() {  
+  // funkce loop se opakuje do nekonecna
   // zde piste vase prikazy:
 
   // priklad chuze
