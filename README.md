@@ -1,6 +1,8 @@
-# Otto DIY
+# Robot Otto
 
 Repozitář obsahuje fork open-source projektu Otto DIY (https://github.com/OttoDIY). Tato verze knihovně přepsanou do českého jazyka pro aktivity pro příměstský dětský tábor.
+
+Návod na stavbu robota najdete zde http://www.instructables.com/id/Otto-Build-You-Own-Robot-in-Two-Hours/.
 
 Ve složce OTTO_bea najdete ukázkový soubor OTTO_bea.ino, který slouží jako šablona pro programování robota.
 
