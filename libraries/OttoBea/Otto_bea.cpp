@@ -18,7 +18,7 @@ void Robot::jdi(int pocet_kroku, int smer) {
 }
 
 void Robot::zatoc(int pocet_kroku, int strana) {
-	Otto.turn(pocet_kroku, 2000, strana);
+	Otto.turn(pocet_kroku, 1000, strana);
 }
 
 void Robot::nahni_se(int strana) {
@@ -26,11 +26,11 @@ void Robot::nahni_se(int strana) {
 };
 
 void Robot::skoc() {
-	Otto.jump(1, 2000);
+	Otto.jump(1, 1000);
 }
 
 void Robot::zatres_nohou(int strana) {
-	Otto.shakeLeg(1, 2000, strana);
+	Otto.shakeLeg(1, 1000, strana);
 }
 
 void Robot::moonwalk(int strana) {
