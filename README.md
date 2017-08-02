@@ -6,6 +6,136 @@ Návod na stavbu robota najdete zde http://www.instructables.com/id/Otto-Build-Y
 
 Ve složce OTTO_bea najdete ukázkový soubor OTTO_bea.ino, který slouží jako šablona pro programování robota.
 
+## Programování v Arduino IDE
+
+Arduino se programuje pomocí zjednodušeného jazyka C tzv. Wiring.
+
+### Komentáře
+
+Umožňují komentování kódu pro lepší přehlednost
+
+```
+// komentar programatora zacina //
+
+```
+
+### Promměnné
+
+Slouží pro práci s daty a jejich ukládání za běhu programu kódu.
+
+```
+// cele cislo
+int cislo = 1;
+
+// desetinne cislo male
+float cislo1 = 0.5;
+
+// desetinne cislo velke
+double cislo2 = 0.5;
+
+// znak
+char znak = 'A';
+
+// text
+char[] text = "text";
+```
+
+### Funkce
+
+Funkce rerezentuje nějakou činnost. Může obsahovat parametry, které potom použije.
+
+```
+funkce1();
+funkce2(parametr1, parametr2);
+```
+
+Funkce může vracet hodnotu, kterou uložíme do proměnné.
+
+```
+int promenna = funkce();
+```
+
+### Rozhodování (větvení)
+
+Umožňuje rozhodování na základě podmínky s proměnnou nebo funkcí. Pokud je podmínka pravdivá provede blok kódu. Pokud není, provede blok kódu za else.
+
+```
+int cislo = 1;
+
+if (cislo > 1)
+{
+  // pokud je cislo vetsi nez 1 provede se kod zde
+  // ...
+}
+else
+{
+  // pokud je cislo neni vetsi nez 1 provede se kod zde
+  // ...
+}
+```
+
+### Konečné opakování (for)
+
+Umožňuje opakovat několikrát opakovat kód v bloku.
+
+```
+for(int i = 0; i < 10; i++)
+{
+  // tento kod se provede 10x
+  // ...
+}
+```
+
+### Neustálé opakování (while)
+
+Umožňuje opakovat kód dokud platí podmínka v závorce.
+
+```
+while(teplota < 30)
+{
+  // tento kod se opakuje dokud je teplota nizsi jak 30 stupnu
+}
+
+while(1)
+{
+  // tento kod se opakuje do nekonecna
+}
+```
+
+### Return
+
+Ukončuje funkci a vrací hodnotu (nemusí vracet nic).
+
+```
+void funkce1()
+{
+  // nevraci nic
+  return;
+}
+
+int funkce2()
+{
+  // vraci 1
+  return 1;
+}
+```
+
+### Arduino
+
+Obsahuje bloky setup a loop do kterých píšeme kód.
+
+```
+void setup()
+{
+  // tento kod se provede pouze jednou hned po spusteni programu
+}
+
+void loop()
+{
+  // tento kod se opakuje ve smycce do nekonecna
+}
+```
+
 ## Návod na ovládání robota
 
 ### Spuštění robota
@@ -56,7 +186,7 @@ zatoc(1, LEVA);
 
 ### Naklánění
 
-Robot se nakloní nastranu.
+Robot se nakloní na stranu.
 
 ```
 nahni_se(strana);
