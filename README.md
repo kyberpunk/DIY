@@ -125,6 +125,19 @@ int funkce2()
 }
 ```
 
+### Čekání (prodleva)
+
+Umožňuje počkat určitý počet milisekund
+
+```
+delay(milisekundy);
+```
+
+```
+// pockej jednu sekundu (tisic milisekund)
+delay(1000);
+```
+
 ### Arduino
 
 Obsahuje bloky setup a loop do kterých píšeme kód.
