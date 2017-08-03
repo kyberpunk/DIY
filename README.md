@@ -8,6 +8,15 @@ Kód je určen pro jednorázové použití a nedoporučujeme ho používat do sv
 
 Ve složce OTTO_bea najdete ukázkový soubor OTTO_bea.ino, který slouží jako šablona pro programování robota.
 
+Pro klonování projektu použijte v příkazové řádce následující příkaz:
+
+```
+git clone https://github.com/kyberpunk/DIY.git %userprofile%\Documents\Robot
+
+```
+
+Pro instalaci pak spusťte soubor install.bat.
+
 ## Programování v Arduino IDE
 
 Arduino se programuje pomocí zjednodušeného jazyka C tzv. Wiring.
