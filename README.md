@@ -240,19 +240,19 @@ strana může být PRAVA nebo LEVA.
 zatres_nohou(LEVA);
 ```
 
-### Zatřes nohou
+### Moonwalk chůze
 
-Robot zatřese nohou.
+Robot udělá moonwalk chůzi.
 
 ```
-zatres_nohou(strana);
+moonwalk(strana);
 ```
 
 strana může být PRAVA nebo LEVA.
 
 ```
-// priklad zatreseni levou nohou
-zatres_nohou(LEVA);
+// priklad moonwal chuze doleva
+moonwalk(LEVA);
 ```
 
 ### Získání vzdálenosti
