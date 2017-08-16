@@ -17,5 +17,5 @@ void loop() {
   // zde piste vase prikazy:
 
   // priklad chuze
-  robot.jdi(1, DOPREDU);
+  robot.jdi(1, DOPREDU);  
 }
