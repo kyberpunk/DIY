@@ -170,7 +170,7 @@ void loop()
 Spustí a nastaví robota, aby ho bylo možné začít používat.
 
 ```
-probud_se();
+robot.probud_se();
 ```
 
 ### Nastavení robota do rovné polohy
@@ -178,7 +178,7 @@ probud_se();
 Srovná nohy robota do vzpřímené polohy.
 
 ```
-srovnej_se();
+robot.srovnej_se();
 ```
 
 ### Chůze
@@ -186,14 +186,14 @@ srovnej_se();
 Robot se bude pohybovat v daném směru.
 
 ```
-jdi(pocet_kroku, smer);
+robot.jdi(pocet_kroku, smer);
 ```
 
 pocet_kroku je libovolné číslo a smer může být DOPREDU nebo DOZADU.
 
 ```
 // priklad 1 krok dopredu
-jdi(1, DOPREDU);
+robot.jdi(1, DOPREDU);
 ```
 
 ### Zatáčení
@@ -201,14 +201,14 @@ jdi(1, DOPREDU);
 Robot se o kousek otočí.
 
 ```
-zatoc(pocet_kroku, strana);
+robot.zatoc(pocet_kroku, strana);
 ```
 
 pocet_kroku je libovolné číslo a strana může být PRAVA nebo LEVA.
 
 ```
 // priklad 4 kroky doleva
-zatoc(1, LEVA);
+robot.zatoc(1, LEVA);
 ```
 
 ### Naklánění
@@ -216,14 +216,14 @@ zatoc(1, LEVA);
 Robot se nakloní na stranu.
 
 ```
-nahni_se(strana);
+robot.nahni_se(strana);
 ```
 
 strana může být PRAVA nebo LEVA.
 
 ```
 // priklad naklon doleva
-nahni_se(LEVA);
+robot.nahni_se(LEVA);
 ```
 
 ### Skoč
@@ -231,7 +231,7 @@ nahni_se(LEVA);
 Robot si lehce poskočí.
 
 ```
-skoc();
+robot.skoc();
 ```
 
 ### Zatřes nohou
@@ -239,14 +239,14 @@ skoc();
 Robot zatřese nohou.
 
 ```
-zatres_nohou(strana);
+robot.zatres_nohou(strana);
 ```
 
 strana může být PRAVA nebo LEVA.
 
 ```
 // priklad zatreseni levou nohou
-zatres_nohou(LEVA);
+robot.zatres_nohou(LEVA);
 ```
 
 ### Moonwalk chůze
@@ -254,14 +254,14 @@ zatres_nohou(LEVA);
 Robot udělá moonwalk chůzi.
 
 ```
-moonwalk(strana);
+robot.moonwalk(strana);
 ```
 
 strana může být PRAVA nebo LEVA.
 
 ```
 // priklad moonwal chuze doleva
-moonwalk(LEVA);
+robot.moonwalk(LEVA);
 ```
 
 ### Získání vzdálenosti
@@ -269,14 +269,14 @@ moonwalk(LEVA);
 Získá hodnotu vzdálenosti překážky ze senzoru (očí).
 
 ```
-ziskej_vzdalenost();
+robot.ziskej_vzdalenost();
 ```
 
 funkce vrací float (desetinné číslo) vzdálenosti.
 
 ```
 // priklad ziskani vzdalenosti a nacteni do promenne
-float vzdalenost = ziskej_vzdalenost();
+float vzdalenost = robot.ziskej_vzdalenost();
 ```
 
 ### Získání stavu baterie
@@ -284,14 +284,14 @@ float vzdalenost = ziskej_vzdalenost();
 Získá stav baterie.
 
 ```
-stav_baterie();
+robot.stav_baterie();
 ```
 
 funkce vrací double (dlouhé desetinné číslo) se stavem baterie.
 
 ```
 // priklad ziskani stavu baterie a nacteni do promenne
-float stav = stav_baterie();
+float stav = robot.stav_baterie();
 ```
 
 ### Provedení gesta
@@ -299,14 +299,14 @@ float stav = stav_baterie();
 Robot provede určité gesto (pohyb a zvuk).
 
 ```
-udelej_gesto(gesto);
+robot.udelej_gesto(gesto);
 ```
 
 gesto začíná na G a může být G_STASTNY, G_VELMI_STASTNY, G_SMUTNY, G_NASTVANY, G_ZKLAMANY, G_ZMATENY, G_ZAMILOVANY, G_VITEZSTVI, G_SPANEK nebo G_PODRAZDENY.
 
 ```
 // priklad smutneho gesta
-udelej_gesto(G_SMUTNY);
+robot.udelej_gesto(G_SMUTNY);
 ```
 
 ### Přehrání zvuku
@@ -314,12 +314,12 @@ udelej_gesto(G_SMUTNY);
 Robot přehraje určitý zvuk.
 
 ```
-zpivej(zvuk);
+robot.zpivej(zvuk);
 ```
 
 gesto začíná na Z a může být Z_STASTNY, Z_VELMI_STASTNY, Z_SMUTNY, Z_NASTVANY, Z_PRIPOJENY, Z_ODPOJENY, Z_PREKVAPENY, Z_PRITULNY, Z_OHOOH, Z_SPANEK, Z_ZMATENY, Z_PRD.
 
 ```
 // priklad zvuku pri pripojeni
-zpivej(Z_PRIPOJENY);
+robot.zpivej(Z_PRIPOJENY);
 ```
