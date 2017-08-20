@@ -317,7 +317,7 @@ Robot přehraje určitý zvuk.
 robot.zpivej(zvuk);
 ```
 
-gesto začíná na Z a může být Z_STASTNY, Z_VELMI_STASTNY, Z_SMUTNY, Z_NASTVANY, Z_PRIPOJENY, Z_ODPOJENY, Z_PREKVAPENY, Z_PRITULNY, Z_OHOOH, Z_SPANEK, Z_ZMATENY, Z_PRD.
+gesto začíná na Z a může být Z_STASTNY, Z_VELMI_STASTNY, Z_SMUTNY, Z_PRIPOJENY, Z_ODPOJENY, Z_PREKVAPENY, Z_PRITULNY, Z_OHOOH, Z_SPANEK, Z_ZMATENY, Z_PRD.
 
 ```
 // priklad zvuku pri pripojeni
