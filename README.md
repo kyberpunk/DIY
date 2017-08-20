@@ -30,7 +30,7 @@ Umožňují komentování kódu pro lepší přehlednost
 
 ```
 
-### Promměnné
+### Proměnné
 
 Slouží pro práci s daty a jejich ukládání za běhu programu kódu.
 
