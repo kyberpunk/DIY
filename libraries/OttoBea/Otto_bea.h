@@ -12,8 +12,8 @@
 #define DOZADU -1
 
 // smer pohybu do stran
-#define PRAVA 1
-#define LEVA -1
+#define PRAVA -1
+#define LEVA 1
 
 // zvuky
 #define Z_PRIPOJENY        0

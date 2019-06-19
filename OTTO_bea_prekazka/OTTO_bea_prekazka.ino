@@ -19,6 +19,6 @@ void loop() {
   // zjisti vzdalenost prekazky a pokud je mensi nez 10 cm, tak udela gesto
   if (robot.ziskej_vzdalenost() < 10.0)
   {
-    robot.udelej_gesto(G_SMUTNY);
+    robot.udelej_gesto(G_NASTVANY);
   }
 }
